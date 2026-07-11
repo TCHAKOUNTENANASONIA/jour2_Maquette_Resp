@@ -1,6 +1,6 @@
 {
     "buildCommand": "npm run build",
-    "outputDirectory": "dist/jour4/browser",
+    "outputDirectory": "dist/jour2-maquette-resp/browser",
     "rewrites": [
         {
             "source": "/(.*)",
