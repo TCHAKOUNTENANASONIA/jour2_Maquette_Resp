@@ -1,0 +1,23 @@
+aside{
+    background-color: rgb(71, 105, 7);
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.aside__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    height: 100%;
+}
+
+@media(max-width: 600px){
+    .main__container{
+        font-size: 1.5rem;
+    }
+}

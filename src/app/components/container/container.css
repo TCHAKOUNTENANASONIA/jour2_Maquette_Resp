@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    height: calc(100vh - 20px);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 6px;
+}
+
+.main{
+    flex: 1;
+}
+
+.aside{
+    flex: 2;
+}
+
+@media (max-width: 900px){
+    .container{
+        flex-direction: column-reverse;
+    }
+}
