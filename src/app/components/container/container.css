@@ -8,11 +8,11 @@
 }
 
 .main{
-    flex: 1;
+    flex: 2;
 }
 
 .aside{
-    flex: 2;
+    flex: 1;
 }
 
 @media (max-width: 900px){
